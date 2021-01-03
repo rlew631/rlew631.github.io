@@ -1,20 +1,37 @@
 {
   "files": {
-    "main.css": "/portfolio-app/static/css/main.bab0b925.chunk.css",
-    "main.js": "/portfolio-app/static/js/main.fad3938a.chunk.js",
-    "main.js.map": "/portfolio-app/static/js/main.fad3938a.chunk.js.map",
-    "runtime-main.js": "/portfolio-app/static/js/runtime-main.01d80c54.js",
-    "runtime-main.js.map": "/portfolio-app/static/js/runtime-main.01d80c54.js.map",
-    "static/js/2.00ec8e08.chunk.js": "/portfolio-app/static/js/2.00ec8e08.chunk.js",
-    "static/js/2.00ec8e08.chunk.js.map": "/portfolio-app/static/js/2.00ec8e08.chunk.js.map",
-    "index.html": "/portfolio-app/index.html",
-    "static/css/main.bab0b925.chunk.css.map": "/portfolio-app/static/css/main.bab0b925.chunk.css.map",
-    "static/js/2.00ec8e08.chunk.js.LICENSE.txt": "/portfolio-app/static/js/2.00ec8e08.chunk.js.LICENSE.txt"
+    "main.css": "/rlew.github.io/portfolio/static/css/main.7a65f4f6.chunk.css",
+    "main.js": "/rlew.github.io/portfolio/static/js/main.6c332414.chunk.js",
+    "main.js.map": "/rlew.github.io/portfolio/static/js/main.6c332414.chunk.js.map",
+    "runtime-main.js": "/rlew.github.io/portfolio/static/js/runtime-main.08b18593.js",
+    "runtime-main.js.map": "/rlew.github.io/portfolio/static/js/runtime-main.08b18593.js.map",
+    "static/css/2.ff45f594.chunk.css": "/rlew.github.io/portfolio/static/css/2.ff45f594.chunk.css",
+    "static/js/2.effc0753.chunk.js": "/rlew.github.io/portfolio/static/js/2.effc0753.chunk.js",
+    "static/js/2.effc0753.chunk.js.map": "/rlew.github.io/portfolio/static/js/2.effc0753.chunk.js.map",
+    "index.html": "/rlew.github.io/portfolio/index.html",
+    "precache-manifest.c79221daafd1f293a78c5970700ca208.js": "/rlew.github.io/portfolio/precache-manifest.c79221daafd1f293a78c5970700ca208.js",
+    "service-worker.js": "/rlew.github.io/portfolio/service-worker.js",
+    "static/css/2.ff45f594.chunk.css.map": "/rlew.github.io/portfolio/static/css/2.ff45f594.chunk.css.map",
+    "static/css/main.7a65f4f6.chunk.css.map": "/rlew.github.io/portfolio/static/css/main.7a65f4f6.chunk.css.map",
+    "static/js/2.effc0753.chunk.js.LICENSE.txt": "/rlew.github.io/portfolio/static/js/2.effc0753.chunk.js.LICENSE.txt",
+    "static/media/earth.jpg": "/rlew.github.io/portfolio/static/media/earth.67af05e1.jpg",
+    "static/media/font-awesome.css": "/rlew.github.io/portfolio/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/image1.jpg": "/rlew.github.io/portfolio/static/media/image1.768998c6.jpg",
+    "static/media/image2.jpg": "/rlew.github.io/portfolio/static/media/image2.8de6195d.jpg",
+    "static/media/image3.jpg": "/rlew.github.io/portfolio/static/media/image3.28470933.jpg",
+    "static/media/image4.jpg": "/rlew.github.io/portfolio/static/media/image4.0b37f434.jpg",
+    "static/media/image5.jpg": "/rlew.github.io/portfolio/static/media/image5.8d16c4af.jpg",
+    "static/media/image6.jpg": "/rlew.github.io/portfolio/static/media/image6.62b7cc75.jpg",
+    "static/media/ionicons.css": "/rlew.github.io/portfolio/static/media/ionicons.621bd386.svg",
+    "static/media/male.png": "/rlew.github.io/portfolio/static/media/male.a82ab1cd.png",
+    "static/media/male1.png": "/rlew.github.io/portfolio/static/media/male1.3ec3891b.png",
+    "static/media/myImage.png": "/rlew.github.io/portfolio/static/media/myImage.bd80794f.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.01d80c54.js",
-    "static/js/2.00ec8e08.chunk.js",
-    "static/css/main.bab0b925.chunk.css",
-    "static/js/main.fad3938a.chunk.js"
+    "static/js/runtime-main.08b18593.js",
+    "static/css/2.ff45f594.chunk.css",
+    "static/js/2.effc0753.chunk.js",
+    "static/css/main.7a65f4f6.chunk.css",
+    "static/js/main.6c332414.chunk.js"
   ]
 }
