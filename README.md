@@ -1,6 +1,6 @@
-[This project was initialized using the folllowing guide](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f)
-[This is the tutorial I used](https://www.freecodecamp.org/news/portfolio-app-using-react-618814e35843/)
-[This is the portfolio template I started with](https://github.com/CleverProgrammers/react-portfolio)
+* [This project was initialized using the folllowing guide](https://dev.to/yuribenjamin/ how-to-deploy-react-app-in-github-pages-2a1f)
+* [This is the tutorial I used](https://www.freecodecamp.org/news/portfolio-app-using-react-618814e35843/)
+* [This is the portfolio template I started with](https://github.com/CleverProgrammers/react-portfolio)
 
 # Getting Started with Create React App
 
