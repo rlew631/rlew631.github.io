@@ -3,6 +3,7 @@ import React from "react";
 //import stock
 import stock from "../img/image1.jpg";
 import stock1 from "../img/image2.jpg";
+import dna from "../img/dna.png";
 import minicity from "../img/minicity.png";
 import drone from "../img/drone_cad.png";
 import stock4 from "../img/image5.jpg";
@@ -18,7 +19,7 @@ class Portfolio extends React.Component {
               <div className="title-box text-center">
                 <h3 className="title-a">Portfolio</h3>
                 <p className="subtitle-a">
-                  Here are some of the Robotics, Data Science and Engineering project's I've worked on (all independently developed)
+                  Here are some of the Robotics, Data Science and Engineering projects I've developed independently
                 </p>
                 <div className="line-mf"></div>
               </div>
@@ -276,14 +277,14 @@ class Portfolio extends React.Component {
               <div className="work-box">
                 <a href={stock} data-lightbox="gallery-smth">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={dna} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Predicting Drug Effects with Chemical Markers</h2>
                         <div className="w-more">
-                          <span className="w-ctegory">MERN</span>
+                          <span className="w-ctegory">Python, SKLearn, IMBLearn, Streamlit, HTML, JavaScript, CSS</span>
                         </div>
                       </div>
                       <div className="col-sm-4">

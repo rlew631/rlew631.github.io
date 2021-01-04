@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "166098b98de20360a2952576dcbcb08b",
+    "revision": "61f40985c21fa5de8f48fa1c7e2468a9",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "c5b7592a89101ba2cc07",
+    "revision": "ed2c9f0dc82750aa98d4",
     "url": "/portfolio/static/css/2.ff45f594.chunk.css"
   },
   {
-    "revision": "080856300985e6c2c031",
-    "url": "/portfolio/static/css/main.a14b555a.chunk.css"
+    "revision": "d54022a988114c808127",
+    "url": "/portfolio/static/css/main.9f2e9c1e.chunk.css"
   },
   {
-    "revision": "c5b7592a89101ba2cc07",
-    "url": "/portfolio/static/js/2.e4f152d5.chunk.js"
+    "revision": "ed2c9f0dc82750aa98d4",
+    "url": "/portfolio/static/js/2.8185e673.chunk.js"
   },
   {
     "revision": "e9875d7c1187f4f0558e7fbac051f48d",
-    "url": "/portfolio/static/js/2.e4f152d5.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.8185e673.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "080856300985e6c2c031",
-    "url": "/portfolio/static/js/main.0ad0d121.chunk.js"
+    "revision": "d54022a988114c808127",
+    "url": "/portfolio/static/js/main.b3a32a06.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -30,6 +30,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dce4c5c85f1aa60712f73c92603ffeb4",
     "url": "/portfolio/static/media/Ryan.dce4c5c8.png"
+  },
+  {
+    "revision": "9119b79e1dcfea9c9b31a95456a08a0f",
+    "url": "/portfolio/static/media/dna.9119b79e.png"
+  },
+  {
+    "revision": "6c2a43a8e4f667e8552e11ed39109cc7",
+    "url": "/portfolio/static/media/drone_cad.6c2a43a8.png"
   },
   {
     "revision": "67af05e12311bac06327b43ca31e166b",
@@ -62,10 +70,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8de6195d8faafe31ac0a842eb0cbe1a9",
     "url": "/portfolio/static/media/image2.8de6195d.jpg"
-  },
-  {
-    "revision": "0b37f43494ce5a35f3e1575612048750",
-    "url": "/portfolio/static/media/image4.0b37f434.jpg"
   },
   {
     "revision": "8d16c4aff0e7bd3db1b8bab9619aea9c",
