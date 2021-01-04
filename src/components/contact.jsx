@@ -119,12 +119,12 @@ class Contact extends React.Component {
                         <ul>
                           <li>
                             <a
-                              href=""
+                              href="https://www.youtube.com/channel/UCL4U7uB704X1u2oZwXxSBDw"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
                               <span className="ico-circle">
-                                <i className="ion-social-codepen"></i>
+                                <i className="ion-social-youtube"></i>
                               </span>
                             </a>
                           </li>

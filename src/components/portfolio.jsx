@@ -4,7 +4,7 @@ import React from "react";
 import stock from "../img/image1.jpg";
 import stock1 from "../img/image2.jpg";
 import minicity from "../img/minicity.png";
-import stock3 from "../img/image4.jpg";
+import drone from "../img/drone_cad.png";
 import stock4 from "../img/image5.jpg";
 import stock5 from "../img/image6.jpg";
 
@@ -18,7 +18,7 @@ class Portfolio extends React.Component {
               <div className="title-box text-center">
                 <h3 className="title-a">Portfolio</h3>
                 <p className="subtitle-a">
-                  Here are some of the Robotics, Data Science and 
+                  Here are some of the Robotics, Data Science and Engineering project's I've worked on (all independently developed)
                 </p>
                 <div className="line-mf"></div>
               </div>
@@ -35,7 +35,7 @@ class Portfolio extends React.Component {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Training Autonomous Vehicles with RL</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
                             Python, FLOW, RLlib, OpenAI Gym, SUMO, OpenStreetMaps, Tensorflow
@@ -65,7 +65,7 @@ class Portfolio extends React.Component {
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock3}
+                  href={stock}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
                 >
@@ -127,7 +127,7 @@ class Portfolio extends React.Component {
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock3}
+                  href={stock}
                   data-lightbox="gallery-aguadeluz"
                   style={{ display: "none" }}
                 >
@@ -189,7 +189,7 @@ class Portfolio extends React.Component {
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock3}
+                  href={stock}
                   data-lightbox="gallery-todo"
                   style={{ display: "none" }}
                 >
@@ -215,15 +215,15 @@ class Portfolio extends React.Component {
               <div className="work-box">
                 <a href={stock} data-lightbox="gallery-medlingos">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={drone} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Object Tracking Drone</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            Bootstrap ReactJS GoogleAPI
+                            Solidworks, Python, OpenCV, CNC (G-Code), Raspbian, DSP (Digital Signal Processing), FEA (Finite Element Analysis), Whatever drone communication standard I used and can't remember
                           </span>
                         </div>
                       </div>
@@ -250,7 +250,7 @@ class Portfolio extends React.Component {
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock3}
+                  href={stock}
                   data-lightbox="gallery-medlingos"
                   style={{ display: "none" }}
                 >
@@ -309,7 +309,7 @@ class Portfolio extends React.Component {
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock3}
+                  href={stock}
                   data-lightbox="gallery-smth"
                   style={{ display: "none" }}
                 >
@@ -370,7 +370,7 @@ class Portfolio extends React.Component {
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock3}
+                  href={stock}
                   data-lightbox="gallery-mf"
                   style={{ display: "none" }}
                 >
