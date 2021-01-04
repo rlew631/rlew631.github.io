@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a14b555a.chunk.css",
-    "main.js": "/portfolio/static/js/main.23d3d2ac.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.23d3d2ac.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.9f2e9c1e.chunk.css",
+    "main.js": "/portfolio/static/js/main.b3a32a06.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b3a32a06.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/css/2.ff45f594.chunk.css": "/portfolio/static/css/2.ff45f594.chunk.css",
-    "static/js/2.0c4e1afa.chunk.js": "/portfolio/static/js/2.0c4e1afa.chunk.js",
-    "static/js/2.0c4e1afa.chunk.js.map": "/portfolio/static/js/2.0c4e1afa.chunk.js.map",
+    "static/js/2.8185e673.chunk.js": "/portfolio/static/js/2.8185e673.chunk.js",
+    "static/js/2.8185e673.chunk.js.map": "/portfolio/static/js/2.8185e673.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.0e987abbaa7dacae2a2173cb8180f589.js": "/portfolio/precache-manifest.0e987abbaa7dacae2a2173cb8180f589.js",
+    "precache-manifest.601fb6e13f67102a499315b49b3120a7.js": "/portfolio/precache-manifest.601fb6e13f67102a499315b49b3120a7.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.ff45f594.chunk.css.map": "/portfolio/static/css/2.ff45f594.chunk.css.map",
-    "static/css/main.a14b555a.chunk.css.map": "/portfolio/static/css/main.a14b555a.chunk.css.map",
-    "static/js/2.0c4e1afa.chunk.js.LICENSE.txt": "/portfolio/static/js/2.0c4e1afa.chunk.js.LICENSE.txt",
+    "static/css/main.9f2e9c1e.chunk.css.map": "/portfolio/static/css/main.9f2e9c1e.chunk.css.map",
+    "static/js/2.8185e673.chunk.js.LICENSE.txt": "/portfolio/static/js/2.8185e673.chunk.js.LICENSE.txt",
     "static/media/Ryan.png": "/portfolio/static/media/Ryan.dce4c5c8.png",
+    "static/media/dna.png": "/portfolio/static/media/dna.9119b79e.png",
     "static/media/drone_cad.png": "/portfolio/static/media/drone_cad.6c2a43a8.png",
     "static/media/earth.jpg": "/portfolio/static/media/earth.67af05e1.jpg",
     "static/media/font-awesome.css": "/portfolio/static/media/fontawesome-webfont.fee66e71.woff",
@@ -29,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/css/2.ff45f594.chunk.css",
-    "static/js/2.0c4e1afa.chunk.js",
-    "static/css/main.a14b555a.chunk.css",
-    "static/js/main.23d3d2ac.chunk.js"
+    "static/js/2.8185e673.chunk.js",
+    "static/css/main.9f2e9c1e.chunk.css",
+    "static/js/main.b3a32a06.chunk.js"
   ]
 }
