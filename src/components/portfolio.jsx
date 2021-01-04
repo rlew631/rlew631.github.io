@@ -3,7 +3,7 @@ import React from "react";
 //import stock
 import stock from "../img/image1.jpg";
 import stock1 from "../img/image2.jpg";
-import stock2 from "../img/image3.jpg";
+import minicity from "../img/minicity.png";
 import stock3 from "../img/image4.jpg";
 import stock4 from "../img/image5.jpg";
 import stock5 from "../img/image6.jpg";
@@ -18,8 +18,7 @@ class Portfolio extends React.Component {
               <div className="title-box text-center">
                 <h3 className="title-a">Portfolio</h3>
                 <p className="subtitle-a">
-                  Incididunt nostrud id aute culpa excepteur pariatur consequat
-                  elit culpa nulla enim anim incididunt.
+                  Here are some of the Robotics, Data Science and 
                 </p>
                 <div className="line-mf"></div>
               </div>
@@ -28,9 +27,10 @@ class Portfolio extends React.Component {
           <div className="row">
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-vmarine">
+                <a href={minicity} data-lightbox="gallery-vmarine">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={minicity} alt="" className="img-fluid" />
+                    {/* ^^ this one is the one that changes the initial image  */}
                   </div>
                   <div className="work-content">
                     <div className="row">
@@ -38,7 +38,7 @@ class Portfolio extends React.Component {
                         <h2 className="w-title">Lorem Ipsum</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap ReactJS
+                            Python, FLOW, RLlib, OpenAI Gym, SUMO, OpenStreetMaps, Tensorflow
                           </span>
                         </div>
                       </div>
@@ -58,7 +58,7 @@ class Portfolio extends React.Component {
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock2}
+                  href={minicity}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
                 >
@@ -120,7 +120,7 @@ class Portfolio extends React.Component {
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock2}
+                  href={minicity}
                   data-lightbox="gallery-aguadeluz"
                   style={{ display: "none" }}
                 >
@@ -182,7 +182,7 @@ class Portfolio extends React.Component {
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock2}
+                  href={minicity}
                   data-lightbox="gallery-todo"
                   style={{ display: "none" }}
                 >
@@ -243,7 +243,7 @@ class Portfolio extends React.Component {
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock2}
+                  href={minicity}
                   data-lightbox="gallery-medlingos"
                   style={{ display: "none" }}
                 >
@@ -302,7 +302,7 @@ class Portfolio extends React.Component {
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock2}
+                  href={minicity}
                   data-lightbox="gallery-smth"
                   style={{ display: "none" }}
                 >
@@ -363,7 +363,7 @@ class Portfolio extends React.Component {
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock2}
+                  href={minicity}
                   data-lightbox="gallery-mf"
                   style={{ display: "none" }}
                 >

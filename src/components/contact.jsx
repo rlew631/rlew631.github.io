@@ -67,7 +67,7 @@ class Contact extends React.Component {
                                   id="subject"
                                   placeholder="Subject"
                                   data-rule="minlen:4"
-                                  data-msg="Please enter at least 8 chars of subject"
+                                  data-msg="Please enter at least 8 chars"
                                 />
                                 <div className="validation"></div>
                               </div>
@@ -103,11 +103,11 @@ class Contact extends React.Component {
                       </div>
                       <div className="more-info">
                         <p className="lead">
-                          Whether you want to get in touch, talk about a project
-                          collaboration, or just say hi, I'd love to hear from
+                          Whether you want to talk about a project
+                          collaboration or just say hi I'd love to hear from
                           you.
                           <br />
-                          Simply fill the from and send me an email.
+                          Simply fill out the form and send me an email.
                         </p>
                         {/* <!-- <ul class="list-ico">
                                 <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
@@ -130,7 +130,7 @@ class Contact extends React.Component {
                           </li>
                           <li>
                             <a
-                              href=""
+                              href="https://github.com/rlew631"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
@@ -141,7 +141,7 @@ class Contact extends React.Component {
                           </li>
                           <li>
                             <a
-                              href=""
+                              href="https://www.linkedin.com/in/rlew631/"
                               target="_blank"
                               rel="noopener noreferrer"
                             >
