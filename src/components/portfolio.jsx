@@ -19,7 +19,7 @@ class Portfolio extends React.Component {
               <div className="title-box text-center">
                 <h3 className="title-a">Portfolio</h3>
                 <p className="subtitle-a">
-                  Here are some of the Robotics, Data Science and Engineering projects I've developed independently
+                  Here are some of the Robotics, Data Science and Engineering projects I've developed
                 </p>
                 <div className="line-mf"></div>
               </div>
@@ -30,7 +30,7 @@ class Portfolio extends React.Component {
               <div className="work-box">
                 <a href={minicity} data-lightbox="gallery-vmarine">
                   <div className="work-img">
-                    <img src={minicity} alt="" className="img-fluid" />
+                    <img src={minicity} alt="Autonomous Vehicle Simulation in FLOW" className="img-fluid" />
                     {/* ^^ this one is the one that changes the initial image  */}
                   </div>
                   <div className="work-content">
@@ -51,36 +51,15 @@ class Portfolio extends React.Component {
                     </div>
                   </div>
                 </a>
-                <a
-                  href={stock1}
-                  data-lightbox="gallery-vmarine"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
+                {/* <a
                   href={minicity}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
-                </a>
+                </a> */}
                 <a
                   href={stock}
-                  data-lightbox="gallery-vmarine"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock4}
-                  data-lightbox="gallery-vmarine"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock5}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
                 >
