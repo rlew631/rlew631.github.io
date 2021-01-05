@@ -998,3 +998,49 @@ BUTTON
     bottom: 15px;
   }
 }
+
+
+/* The section I put in */
+
+/* The padding here controls the width of the popup */
+.popup-overlay {
+  padding: 5%
+}
+
+.button {
+  padding: 20px, 10px;
+  /* the first padding element doesn't seem to do anything... */
+}
+/* The padding here controlls how far everything is set in from the edge of the popup window */
+.modal1 {
+  padding: 5%;
+  font-size: 14px;
+  background-color: rgb(255, 255, 255) ;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.modal1 > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  padding: 5px;
+}
+.modal1 > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.modal1 > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: 10px;
+  top: 5px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
