@@ -1002,6 +1002,12 @@ BUTTON
 
 /* The section I put in */
 
+.portfolio-row {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
 /* The padding here controls the width of the popup */
 .popup-overlay {
   padding: 5%

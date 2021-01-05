@@ -29,7 +29,7 @@ class Portfolio extends React.Component {
               </div>
             </div>
           </div>
-          <div className="row">
+          <div className="portfolio-row">
             {/* Car Project */}
             <div className="col-md-4">
               <div className="work-box">
