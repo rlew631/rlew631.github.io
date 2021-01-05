@@ -1,5 +1,4 @@
 import React from "react";
-import myImage from "../img/myImage.png";
 
 class About extends React.Component {
   constructor() {
@@ -9,18 +8,18 @@ class About extends React.Component {
         {
           id: "first-p-about",
           content:
-            "Put in the first paragraph about me"
+            "Currently located in Berkeley, Ryan holds a Bachelor's degree in Mechatronic Engineering and has primarily held positions at companies developing robotics and automation engineering products. His passion is for discovering how new technologies can be applied to existing problems in order to find simple and elegant solutions. His positive outlook and ability to convey complex principles in a digestible manner make him a joy to work with!"
         },
-        {
-          id: "second-p-about",
-          content:
-            "And another paragraph possibly"
-        },
-        {
-          id: "third-p-about",
-          content:
-            "Three is probably overkill"
-        }
+        // {
+        //   id: "second-p-about",
+        //   content:
+        //     "And another paragraph possibly"
+        // },
+        // {
+        //   id: "third-p-about",
+        //   content:
+        //     "Three is probably overkill"
+        // }
       ],
       skills: [
         { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
@@ -71,7 +70,7 @@ class About extends React.Component {
                 <div className="col-md-6">
                     <div className="about-me pt-4 pt-md-0">
                       <div className="title-box-2">
-                        <h5 className="title-left">About Me</h5>
+                        <h5 className="title-left">About Ryan</h5>
                       </div>
                       {this.state.about_me.map(content => {
                         return (
