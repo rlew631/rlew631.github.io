@@ -1002,6 +1002,14 @@ BUTTON
 
 /* The section I put in */
 
+.work-content {
+  min-height:250px;
+}
+
+.work-img{
+  border:none;
+}
+
 .portfolio-row {
   display: flex;
   align-items: stretch;
