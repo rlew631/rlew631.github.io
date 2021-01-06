@@ -39,14 +39,20 @@ class Portfolio extends React.Component {
                   </button>} modal nested>
                   {close => (
                     <div className="modal1"> 
-                      <button className="close" onClick={close}>
-                        &times;
-                      </button>
-                      <div className="header">{ProjectInfo.CarProject.ProjectTitle}</div>
-                      <div className="content">
-                        {' '}
-                        {ProjectInfo.CarProject.PopupTextP0}
-                        <br /><br/>
+                      <div className="container">
+                        <div className="title-box-2 col-sm-11"> 
+                          <div className="title-left">{ProjectInfo.CarProject.ProjectTitle}</div>
+                        </div>
+                        <button className="close col-sm-1" onClick={close}>
+                          &times;
+                        </button>
+                      </div>
+                      <div className="container">
+                        <div className="content">
+                          {' '}
+                          {ProjectInfo.CarProject.PopupTextP0}
+                          <br /><br/>
+                        </div>
                       </div>
                     </div>
                   )}
@@ -81,16 +87,22 @@ class Portfolio extends React.Component {
                   </button>} modal nested>
                   {close => (
                     <div className="modal1"> 
-                      <button className="close" onClick={close}>
+                    <div className="container">
+                      <div className="title-box-2 col-sm-11"> 
+                        <div className="title-left">{ProjectInfo.DrugProject.ProjectTitle}</div>
+                      </div>
+                      <button className="close col-sm-1" onClick={close}>
                         &times;
                       </button>
-                      <div className="header">{ProjectInfo.DrugProject.ProjectTitle}</div>
+                    </div>
+                    <div className="container">
                       <div className="content">
                         {' '}
                         {ProjectInfo.DrugProject.PopupTextP0}
                         <br /><br/>
                       </div>
                     </div>
+                  </div>
                   )}
                 </Popup>
                 <div className="work-content">
@@ -123,16 +135,22 @@ class Portfolio extends React.Component {
                   </button>} modal nested>
                   {close => (
                     <div className="modal1"> 
-                      <button className="close" onClick={close}>
+                    <div className="container">
+                      <div className="title-box-2 col-sm-11"> 
+                        <div className="title-left">{ProjectInfo.NLPProject.ProjectTitle}</div>
+                      </div>
+                      <button className="close col-sm-1" onClick={close}>
                         &times;
                       </button>
-                      <div className="header">{ProjectInfo.NLPProject.ProjectTitle}</div>
+                    </div>
+                    <div className="container">
                       <div className="content">
                         {' '}
                         {ProjectInfo.NLPProject.PopupTextP0}
-                        {ProjectInfo.NLPProject.PopupTextP1}
+                        <br /><br/>
                       </div>
                     </div>
+                  </div>
                   )}
                 </Popup>
                 <div className="work-content">
@@ -165,16 +183,22 @@ class Portfolio extends React.Component {
                   </button>} modal nested>
                   {close => (
                     <div className="modal1"> 
-                      <button className="close" onClick={close}>
+                    <div className="container">
+                      <div className="title-box-2 col-sm-11"> 
+                        <div className="title-left">{ProjectInfo.DroneProject.ProjectTitle}</div>
+                      </div>
+                      <button className="close col-sm-1" onClick={close}>
                         &times;
                       </button>
-                      <div className="header">{ProjectInfo.DroneProject.ProjectTitle}</div>
+                    </div>
+                    <div className="container">
                       <div className="content">
                         {' '}
                         {ProjectInfo.DroneProject.PopupTextP0}
                         <br /><br/>
                       </div>
                     </div>
+                  </div>
                   )}
                 </Popup>
                 <div className="work-content">
@@ -207,16 +231,22 @@ class Portfolio extends React.Component {
                   </button>} modal nested>
                   {close => (
                     <div className="modal1"> 
-                      <button className="close" onClick={close}>
+                    <div className="container">
+                      <div className="title-box-2 col-sm-11"> 
+                        <div className="title-left">{ProjectInfo.PlanktonProject.ProjectTitle}</div>
+                      </div>
+                      <button className="close col-sm-1" onClick={close}>
                         &times;
                       </button>
-                      <div className="header">{ProjectInfo.PlanktonProject.ProjectTitle}</div>
+                    </div>
+                    <div className="container">
                       <div className="content">
                         {' '}
                         {ProjectInfo.PlanktonProject.PopupTextP0}
                         <br /><br/>
                       </div>
                     </div>
+                  </div>
                   )}
                 </Popup>
                 <div className="work-content">
@@ -249,16 +279,22 @@ class Portfolio extends React.Component {
                   </button>} modal nested>
                   {close => (
                     <div className="modal1"> 
-                      <button className="close" onClick={close}>
+                    <div className="container">
+                      <div className="title-box-2 col-sm-11"> 
+                        <div className="title-left">{ProjectInfo.SpeechProject.ProjectTitle}</div>
+                      </div>
+                      <button className="close col-sm-1" onClick={close}>
                         &times;
                       </button>
-                      <div className="header">{ProjectInfo.SpeechProject.ProjectTitle}</div>
+                    </div>
+                    <div className="container">
                       <div className="content">
                         {' '}
                         {ProjectInfo.SpeechProject.PopupTextP0}
                         <br /><br/>
                       </div>
                     </div>
+                  </div>
                   )}
                 </Popup>
                 <div className="work-content">
