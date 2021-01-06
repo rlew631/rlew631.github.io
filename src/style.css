@@ -1002,7 +1002,6 @@ BUTTON
 
 /* The section I put in */
 
-
 .work-content {
   min-height:250px;
 }
@@ -1083,4 +1082,8 @@ BUTTON
   background: #ffffff;
   border-radius: 18px;
   border: 1px solid #cfcece;
+}
+
+.skillset {
+  padding-bottom: 20px;
 }
