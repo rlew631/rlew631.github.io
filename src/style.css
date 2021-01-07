@@ -1084,6 +1084,10 @@ BUTTON
   border: 1px solid #cfcece;
 }
 
-.skillset {
-  padding-bottom: 20px;
+.tool {
+  padding: 3px
+}
+
+.w-title {
+  font-weight: bold;
 }

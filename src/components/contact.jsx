@@ -15,7 +15,7 @@ class Contact extends React.Component {
               <div className="contact-mf">
                 <div id="contact" className="box-shadow-full">
                   <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-7">
                       <div className="title-box-2">
                         <h5 className="title-left">Send A Message</h5>
                       </div>
@@ -97,17 +97,13 @@ class Contact extends React.Component {
                         </form>
                       </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-5">
                       <div className="title-box-2 pt-4 pt-md-0">
-                        <h5 className="title-left">Get in Touch</h5>
+                        <h5 className="title-left">Find Me Online</h5>
                       </div>
                       <div className="more-info">
                         <p className="lead">
-                          Whether you want to talk about a project
-                          collaboration or just say hi I'd love to hear from
-                          you.
-                          <br />
-                          Simply fill out the form and send me an email.
+                          If you'd like to check out some of my other work or chat about a project or just say hello feel free to check out my YouTube channel, GitHub or add me on LinkedIn.
                         </p>
                         {/* <!-- <ul class="list-ico">
                                 <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>

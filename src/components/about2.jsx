@@ -8,19 +8,19 @@ const toolkit = (
         Data Science/ Machine Learning
       </h2>
       <div className="tools">
-        <img src="https://img.shields.io/badge/C++%20-brown.svg?&style=for-the-badge&logo=C&logoColor=white" alt="C++"></img>
-        <img src="https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white" alt="Python"></img>
-        <img src="https://img.shields.io/badge/-Matlab-0076A8?style=for-the-badge&logo=Mathworks" alt="Matlab"></img>
+        <img className="tool" src="https://img.shields.io/badge/C++%20-brown.svg?&style=for-the-badge&logo=C&logoColor=white" alt="C++"></img>
+        <img className="tool" src="https://img.shields.io/badge/python%20-%2314354C.svg?&style=for-the-badge&logo=python&logoColor=white" alt="Python"></img>
+        <img className="tool" src="https://img.shields.io/badge/-Matlab-0076A8?style=for-the-badge&logo=Mathworks" alt="Matlab"></img>
 
-        <img src="https://img.shields.io/badge/numpy%20-%23013243.svg?&style=for-the-badge&logo=numpy&logoColor=white" alt="Numpy"></img>
-        <img src="https://img.shields.io/badge/pandas%20-%23150458.svg?&style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"></img>
-        <img src="https://img.shields.io/badge/SkLearn%20-%23E34F26.svg?&style=for-the-badge&logo=scikit%20learn&logoColor=white" alt="SKLearn"></img>
-        <img src="https://img.shields.io/badge/Keras%20-%23D00000.svg?&style=for-the-badge&logo=Keras&logoColor=white" alt="Keras"></img>
-        <img src="https://img.shields.io/badge/TensorFlow%20-%23430098.svg?&style=for-the-badge&logo=TensorFlow&logoColor=white" alt="TensorFlow"></img>
+        <img className="tool" src="https://img.shields.io/badge/numpy%20-%23013243.svg?&style=for-the-badge&logo=numpy&logoColor=white" alt="Numpy"></img>
+        <img className="tool" src="https://img.shields.io/badge/pandas%20-%23150458.svg?&style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"></img>
+        <img className="tool" src="https://img.shields.io/badge/SkLearn%20-%23E34F26.svg?&style=for-the-badge&logo=scikit%20learn&logoColor=white" alt="SKLearn"></img>
+        <img className="tool" src="https://img.shields.io/badge/Keras%20-%23D00000.svg?&style=for-the-badge&logo=Keras&logoColor=white" alt="Keras"></img>
+        <img className="tool" src="https://img.shields.io/badge/TensorFlow%20-%23430098.svg?&style=for-the-badge&logo=TensorFlow&logoColor=white" alt="TensorFlow"></img>
 
-        <img src="https://img.shields.io/badge/heroku%20-%23430098.svg?&style=for-the-badge&logo=heroku&logoColor=white" alt="Heroku"></img>
-        <img src="https://img.shields.io/badge/Jupyter%20-%23F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white" alt="Jupyter"></img>
-        <img src="https://img.shields.io/badge/Colab%20-%2320232a.svg?&style=for-the-badge&logo=google&logoColor=white" alt="Colab"></img>
+        <img className="tool" src="https://img.shields.io/badge/heroku%20-%23430098.svg?&style=for-the-badge&logo=heroku&logoColor=white" alt="Heroku"></img>
+        <img className="tool" src="https://img.shields.io/badge/Jupyter%20-%23F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white" alt="Jupyter"></img>
+        <img className="tool" src="https://img.shields.io/badge/Colab%20-%2320232a.svg?&style=for-the-badge&logo=google&logoColor=white" alt="Colab"></img>
       </div>
     </div>
 
@@ -29,16 +29,16 @@ const toolkit = (
         Web Development
       </h2>
       <div className="tools">
-        <img src="https://img.shields.io/badge/html%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white" alt="HTML"></img>
-        <img src="https://img.shields.io/badge/css%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white" alt="CSS"></img>
-        <img src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="Javascript"></img>
-        <img src="https://img.shields.io/badge/flask%20-%2307405e.svg?&style=for-the-badge&logo=flask&logoColor=white" alt="Flask"></img>
-        <img src="https://assets.website-files.com/5dc3b47ddc6c0c2a1af74ad0/5e18182ab1025a63c984f248_RGB_Logo_Horizontal_Color_Dark_Bg-p-2000.png" height="28"></img>
-        <img src="https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white" alt="Git"></img>
-        <img src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white" alt="Github"></img>
+        <img className="tool" src="https://img.shields.io/badge/html%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white" alt="HTML"></img>
+        <img className="tool" src="https://img.shields.io/badge/css%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white" alt="CSS"></img>
+        <img className="tool" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="Javascript"></img>
+        <img className="tool" src="https://img.shields.io/badge/flask%20-%2307405e.svg?&style=for-the-badge&logo=flask&logoColor=white" alt="Flask"></img>
+        <img className="tool" src="https://assets.website-files.com/5dc3b47ddc6c0c2a1af74ad0/5e18182ab1025a63c984f248_RGB_Logo_Horizontal_Color_Dark_Bg-p-2000.png" height="28"></img>
+        <img className="tool" src="https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white" alt="Git"></img>
+        <img className="tool" src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white" alt="Github"></img>
 
-        <img src="https://img.shields.io/badge/-PostgreSQL-336791?style=for-the-badge&logo=PostgreSQL" alt="PostGresQL"></img>
-        <img src="https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white" alt="MySQL"></img>
+        <img className="tool" src="https://img.shields.io/badge/-PostgreSQL-336791?style=for-the-badge&logo=PostgreSQL" alt="PostGresQL"></img>
+        <img className="tool" src="https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=white" alt="MySQL"></img>
       </div>
     </div>
 
@@ -47,9 +47,9 @@ const toolkit = (
         Operating Systems
       </h2>
       <div className="tools">
-        <img src="https://img.shields.io/badge/mac-os?logo=apple&logoColor=white&color=999999&style=for-the-badge" alt="MacOS"></img>
-        <img src="https://img.shields.io/badge/-ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=FFFFFF" alt="Ubuntu"></img>
-        <img src="https://img.shields.io/badge/-debian-A81D33?style=for-the-badge&logo=debian" alt="Debian"></img>
+        <img className="tool" src="https://img.shields.io/badge/mac-os?logo=apple&logoColor=white&color=999999&style=for-the-badge" alt="MacOS"></img>
+        <img className="tool" src="https://img.shields.io/badge/-ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=FFFFFF" alt="Ubuntu"></img>
+        <img className="tool" src="https://img.shields.io/badge/-debian-A81D33?style=for-the-badge&logo=debian" alt="Debian"></img>
       </div>
     </div>
 
@@ -58,8 +58,8 @@ const toolkit = (
         Embedded Systems
       </h2>
       <div className="tools">
-        <img src="https://img.shields.io/badge/-Raspberry%20Pi-C51A4A?style=for-the-badge&logo=Raspberry%20Pi" alt="RaspberryPi"></img>
-        <img src="https://img.shields.io/badge/-arduino-00979D?style=for-the-badge&logo=arduino&logoColor=FFFFFF" alt="Arduino"></img>
+        <img className="tool" src="https://img.shields.io/badge/-Raspberry%20Pi-C51A4A?style=for-the-badge&logo=Raspberry%20Pi" alt="RaspberryPi"></img>
+        <img className="tool" src="https://img.shields.io/badge/-arduino-00979D?style=for-the-badge&logo=arduino&logoColor=FFFFFF" alt="Arduino"></img>
       </div>
     </div>
   </div>
