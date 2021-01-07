@@ -1083,11 +1083,18 @@ BUTTON
   border-radius: 18px;
   border: 1px solid #cfcece;
 }
-
+.tools {
+  padding-bottom: 30px;
+}
 .tool {
   padding: 3px
 }
 
 .w-title {
   font-weight: bold;
+}
+@media (min-width: 768px){
+  .about-me {
+    padding-right: 25px;
+  }
 }
