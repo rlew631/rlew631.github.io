@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e964956fd98c06ec19ee331f2352718e",
+    "revision": "6e6cc3bcc72d79550a8d6771fbcca1bf",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "269cc565af0249c84e44",
-    "url": "/portfolio/static/css/2.3863e824.chunk.css"
+    "revision": "5759687c6b2a349d6834",
+    "url": "/portfolio/static/css/2.b9dd58a6.chunk.css"
   },
   {
-    "revision": "add600264ed400513f37",
-    "url": "/portfolio/static/css/main.88a8e977.chunk.css"
+    "revision": "2290bf745ae2e2e6974b",
+    "url": "/portfolio/static/css/main.956296fe.chunk.css"
   },
   {
-    "revision": "269cc565af0249c84e44",
+    "revision": "5759687c6b2a349d6834",
     "url": "/portfolio/static/js/2.cb6d2758.chunk.js"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.cb6d2758.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "add600264ed400513f37",
-    "url": "/portfolio/static/js/main.1545a9d0.chunk.js"
+    "revision": "2290bf745ae2e2e6974b",
+    "url": "/portfolio/static/js/main.52e6289b.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
-    "revision": "acf3dcb7ff752b5296ca23ba2c7c2606",
-    "url": "/portfolio/static/media/fontawesome-webfont.acf3dcb7.svg"
+    "revision": "912ec66d7572ff821749319396470bde",
+    "url": "/portfolio/static/media/fontawesome-webfont.912ec66d.svg"
   },
   {
     "revision": "af7ae505a9eed503f8b8e6982036873e",
@@ -80,8 +80,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/ionicons.2c2ae068.eot"
   },
   {
-    "revision": "c037dbbc0e6790f30e824a50010df5fb",
-    "url": "/portfolio/static/media/ionicons.c037dbbc.svg"
+    "revision": "621bd386841f74e0053cb8e67f8a0604",
+    "url": "/portfolio/static/media/ionicons.621bd386.svg"
   },
   {
     "revision": "8725f6d0a33ddf620c50b21eb43e3cbb",

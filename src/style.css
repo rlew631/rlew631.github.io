@@ -709,6 +709,7 @@ PORTFOLIO
 }
 
 .work-img {
+  border: none;
   display: block;
   overflow: hidden;
 }
@@ -719,6 +720,7 @@ PORTFOLIO
 
 .work-content {
   padding: 2rem 3% 1rem 4%;
+  padding-left:15px;
 }
 
 .work-content .w-more {
@@ -726,7 +728,7 @@ PORTFOLIO
   font-size: .8rem;
 }
 
-.work-content .w-more .w-ctegory {
+.w-ctegory {
   color: #0078ff;
 }
 
@@ -1006,8 +1008,18 @@ BUTTON
   height:90%;
 }
 
-.work-img{
-  border:none;
+.w-tools{
+  font-size:80%;
+}
+
+.work-content {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.work-content > .w-like {
+  padding: 10px;
 }
 
 .portfolio-row {
@@ -1024,10 +1036,6 @@ BUTTON
 .close {
   vertical-align: top;
 }
-
-/* .button { 
-  padding: 20px, 10px; */
-  /* the first padding element doesn't seem to do anything... */
 
 /* The padding here controlls how far everything is set in from the edge of the popup window */
 .modal1 {
@@ -1084,14 +1092,13 @@ BUTTON
   border: 1px solid #cfcece;
 }
 .tools {
-  padding-bottom: 30px;
+  padding-bottom: 25px;
 }
 .tool {
   padding: 3px
 }
 
 .w-title {
-  padding: 10px;
   font-weight: bold;
 }
 @media (min-width: 768px){
