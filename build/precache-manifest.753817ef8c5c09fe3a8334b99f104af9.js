@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "87ce5441d55ef89dbfb71774910a9ca4",
+    "revision": "e964956fd98c06ec19ee331f2352718e",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "5759687c6b2a349d6834",
-    "url": "/portfolio/static/css/2.b9dd58a6.chunk.css"
+    "revision": "269cc565af0249c84e44",
+    "url": "/portfolio/static/css/2.3863e824.chunk.css"
   },
   {
-    "revision": "cf1fba45dbc6b74da18f",
-    "url": "/portfolio/static/css/main.14948a82.chunk.css"
+    "revision": "add600264ed400513f37",
+    "url": "/portfolio/static/css/main.88a8e977.chunk.css"
   },
   {
-    "revision": "5759687c6b2a349d6834",
+    "revision": "269cc565af0249c84e44",
     "url": "/portfolio/static/js/2.cb6d2758.chunk.js"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.cb6d2758.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cf1fba45dbc6b74da18f",
-    "url": "/portfolio/static/js/main.f459c0c0.chunk.js"
+    "revision": "add600264ed400513f37",
+    "url": "/portfolio/static/js/main.1545a9d0.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
-    "revision": "912ec66d7572ff821749319396470bde",
-    "url": "/portfolio/static/media/fontawesome-webfont.912ec66d.svg"
+    "revision": "acf3dcb7ff752b5296ca23ba2c7c2606",
+    "url": "/portfolio/static/media/fontawesome-webfont.acf3dcb7.svg"
   },
   {
     "revision": "af7ae505a9eed503f8b8e6982036873e",
@@ -80,8 +80,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/ionicons.2c2ae068.eot"
   },
   {
-    "revision": "621bd386841f74e0053cb8e67f8a0604",
-    "url": "/portfolio/static/media/ionicons.621bd386.svg"
+    "revision": "c037dbbc0e6790f30e824a50010df5fb",
+    "url": "/portfolio/static/media/ionicons.c037dbbc.svg"
   },
   {
     "revision": "8725f6d0a33ddf620c50b21eb43e3cbb",
@@ -92,7 +92,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/minicity.140a89aa.png"
   },
   {
-    "revision": "ed7caa1eebb208294222b24bd5f5ba92",
-    "url": "/portfolio/static/media/stocks.ed7caa1e.png"
+    "revision": "10ab4f48af55add351da19d325347686",
+    "url": "/portfolio/static/media/stocks.10ab4f48.png"
   }
 ]);

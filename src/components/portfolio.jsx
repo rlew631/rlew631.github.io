@@ -1,8 +1,6 @@
 import React from "react";
 import Popup from "reactjs-popup";
 
-// https://www.golangprograms.com/display-json-data-in-reactjs.html
-
 import map from "../img/map.png";
 import dna from "../img/dna.png";
 import minicity from "../img/minicity.png";
@@ -33,6 +31,7 @@ class Portfolio extends React.Component {
             {/* Car Project */}
             <div className="col-md-4">
               <div className="work-box">
+                <h2 className="w-title">{ProjectInfo.CarProject.ProjectTitle}</h2>
                 <Popup trigger={
                   <button className="work-img">
                     <img src={minicity} alt={ProjectInfo.CarProject.ProjectTitle} className="img-fluid" />
@@ -57,22 +56,17 @@ class Portfolio extends React.Component {
                     </div>
                   )}
                 </Popup>
-                <div className="work-content">
-                  <div>
-                    <h2 className="w-title">{ProjectInfo.CarProject.ProjectTitle}</h2>
-                  </div> 
-                  <div className="row">
-                    <div className="w-more col-sm-8">
-                      <span className="w-ctegory">
-                        {ProjectInfo.CarProject.ProjectTools}
-                      </span>
-                    </div>
-                    <div className="col-sm-4">
-                      <div className="w-like">
-                        <a href={ProjectInfo.CarProject.GithubLink}>
-                        <span className="ion-social-github"></span>
-                        </a>
-                      </div>
+                <div className="row work-content"> 
+                  <div className="w-more col-sm-8">
+                    <span className="w-ctegory">
+                      {ProjectInfo.CarProject.ProjectTools}
+                    </span>
+                  </div>
+                  <div className="col-sm-4">
+                    <div className="w-like">
+                      <a href={ProjectInfo.CarProject.GithubLink}>
+                      <span className="ion-social-github"></span>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -81,46 +75,42 @@ class Portfolio extends React.Component {
             {/* Drug Project */}
             <div className="col-md-4">
               <div className="work-box">
+                <h2 className="w-title">{ProjectInfo.DrugProject.ProjectTitle}</h2>
                 <Popup trigger={
                   <button className="work-img">
                     <img src={dna} alt={ProjectInfo.DrugProject.ProjectTitle} className="img-fluid" />
                   </button>} modal nested>
                   {close => (
                     <div className="modal1"> 
-                    <div className="container">
-                      <div className="title-box-2 col-sm-11"> 
-                        <div className="title-left">{ProjectInfo.DrugProject.ProjectTitle}</div>
+                      <div className="container">
+                        <div className="title-box-2 col-sm-11"> 
+                          <div className="title-left">{ProjectInfo.DrugProject.ProjectTitle}</div>
+                        </div>
+                        <button className="close col-sm-1" onClick={close}>
+                          &times;
+                        </button>
                       </div>
-                      <button className="close col-sm-1" onClick={close}>
-                        &times;
-                      </button>
-                    </div>
-                    <div className="container">
-                      <div className="content">
-                        {' '}
-                        {ProjectInfo.DrugProject.PopupTextP0}
-                        <br /><br/>
+                      <div className="container">
+                        <div className="content">
+                          {' '}
+                          {ProjectInfo.DrugProject.PopupTextP0}
+                          <br /><br/>
+                        </div>
                       </div>
                     </div>
-                  </div>
                   )}
                 </Popup>
-                <div className="work-content">
-                  <div>
-                    <h2 className="w-title">{ProjectInfo.DrugProject.ProjectTitle}</h2>
-                  </div> 
-                  <div className="row">
-                    <div className="w-more col-sm-8">
-                      <span className="w-ctegory">
-                        {ProjectInfo.DrugProject.ProjectTools}
-                      </span>
-                    </div>
-                    <div className="col-sm-4">
-                      <div className="w-like">
-                        <a href={ProjectInfo.DrugProject.GithubLink}>
-                        <span className="ion-social-github"></span>
-                        </a>
-                      </div>
+                <div className="row work-content"> 
+                  <div className="w-more col-sm-8">
+                    <span className="w-ctegory">
+                      {ProjectInfo.DrugProject.ProjectTools}
+                    </span>
+                  </div>
+                  <div className="col-sm-4">
+                    <div className="w-like">
+                      <a href={ProjectInfo.DrugProject.GithubLink}>
+                      <span className="ion-social-github"></span>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -129,46 +119,42 @@ class Portfolio extends React.Component {
             {/* NLP Project */}
             <div className="col-md-4">
               <div className="work-box">
+                <h2 className="w-title">{ProjectInfo.NLPProject.ProjectTitle}</h2>
                 <Popup trigger={
                   <button className="work-img">
                     <img src={stocks} alt={ProjectInfo.NLPProject.ProjectTitle} className="img-fluid" />
                   </button>} modal nested>
                   {close => (
                     <div className="modal1"> 
-                    <div className="container">
-                      <div className="title-box-2 col-sm-11"> 
-                        <div className="title-left">{ProjectInfo.NLPProject.ProjectTitle}</div>
+                      <div className="container">
+                        <div className="title-box-2 col-sm-11"> 
+                          <div className="title-left">{ProjectInfo.NLPProject.ProjectTitle}</div>
+                        </div>
+                        <button className="close col-sm-1" onClick={close}>
+                          &times;
+                        </button>
                       </div>
-                      <button className="close col-sm-1" onClick={close}>
-                        &times;
-                      </button>
-                    </div>
-                    <div className="container">
-                      <div className="content">
-                        {' '}
-                        {ProjectInfo.NLPProject.PopupTextP0}
-                        <br /><br/>
+                      <div className="container">
+                        <div className="content">
+                          {' '}
+                          {ProjectInfo.NLPProject.PopupTextP0}
+                          <br /><br/>
+                        </div>
                       </div>
                     </div>
-                  </div>
                   )}
                 </Popup>
-                <div className="work-content">
-                  <div>
-                    <h2 className="w-title">{ProjectInfo.NLPProject.ProjectTitle}</h2>
-                  </div> 
-                  <div className="row">
-                    <div className="w-more col-sm-8">
-                      <span className="w-ctegory">
-                        {ProjectInfo.NLPProject.ProjectTools}
-                      </span>
-                    </div>
-                    <div className="col-sm-4">
-                      <div className="w-like">
-                        <a href={ProjectInfo.NLPProject.GithubLink}>
-                        <span className="ion-social-github"></span>
-                        </a>
-                      </div>
+                <div className="row work-content"> 
+                  <div className="w-more col-sm-8">
+                    <span className="w-ctegory">
+                      {ProjectInfo.NLPProject.ProjectTools}
+                    </span>
+                  </div>
+                  <div className="col-sm-4">
+                    <div className="w-like">
+                      <a href={ProjectInfo.NLPProject.GithubLink}>
+                      <span className="ion-social-github"></span>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -177,46 +163,42 @@ class Portfolio extends React.Component {
             {/* Drone Project */}
             <div className="col-md-4">
               <div className="work-box">
+                <h2 className="w-title">{ProjectInfo.DroneProject.ProjectTitle}</h2>
                 <Popup trigger={
                   <button className="work-img">
                     <img src={drone} alt={ProjectInfo.DroneProject.ProjectTitle} className="img-fluid" />
                   </button>} modal nested>
                   {close => (
                     <div className="modal1"> 
-                    <div className="container">
-                      <div className="title-box-2 col-sm-11"> 
-                        <div className="title-left">{ProjectInfo.DroneProject.ProjectTitle}</div>
+                      <div className="container">
+                        <div className="title-box-2 col-sm-11"> 
+                          <div className="title-left">{ProjectInfo.DroneProject.ProjectTitle}</div>
+                        </div>
+                        <button className="close col-sm-1" onClick={close}>
+                          &times;
+                        </button>
                       </div>
-                      <button className="close col-sm-1" onClick={close}>
-                        &times;
-                      </button>
-                    </div>
-                    <div className="container">
-                      <div className="content">
-                        {' '}
-                        {ProjectInfo.DroneProject.PopupTextP0}
-                        <br /><br/>
+                      <div className="container">
+                        <div className="content">
+                          {' '}
+                          {ProjectInfo.DroneProject.PopupTextP0}
+                          <br /><br/>
+                        </div>
                       </div>
                     </div>
-                  </div>
                   )}
                 </Popup>
-                <div className="work-content">
-                  <div>
-                    <h2 className="w-title">{ProjectInfo.DroneProject.ProjectTitle}</h2>
-                  </div> 
-                  <div className="row">
-                    <div className="w-more col-sm-8">
-                      <span className="w-ctegory">
-                        {ProjectInfo.DroneProject.ProjectTools}
-                      </span>
-                    </div>
-                    <div className="col-sm-4">
-                      <div className="w-like">
-                        <a href={ProjectInfo.DroneProject.GithubLink}>
-                        <span className="ion-social-github"></span>
-                        </a>
-                      </div>
+                <div className="row work-content"> 
+                  <div className="w-more col-sm-8">
+                    <span className="w-ctegory">
+                      {ProjectInfo.DroneProject.ProjectTools}
+                    </span>
+                  </div>
+                  <div className="col-sm-4">
+                    <div className="w-like">
+                      <a href={ProjectInfo.DroneProject.GithubLink}>
+                      <span className="ion-social-github"></span>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -225,46 +207,42 @@ class Portfolio extends React.Component {
             {/* Zooplankton Project */}
             <div className="col-md-4">
               <div className="work-box">
+                <h2 className="w-title">{ProjectInfo.PlanktonProject.ProjectTitle}</h2>
                 <Popup trigger={
                   <button className="work-img">
                     <img src={map} alt={ProjectInfo.PlanktonProject.ProjectTitle} className="img-fluid" />
                   </button>} modal nested>
                   {close => (
                     <div className="modal1"> 
-                    <div className="container">
-                      <div className="title-box-2 col-sm-11"> 
-                        <div className="title-left">{ProjectInfo.PlanktonProject.ProjectTitle}</div>
+                      <div className="container">
+                        <div className="title-box-2 col-sm-11"> 
+                          <div className="title-left">{ProjectInfo.PlanktonProject.ProjectTitle}</div>
+                        </div>
+                        <button className="close col-sm-1" onClick={close}>
+                          &times;
+                        </button>
                       </div>
-                      <button className="close col-sm-1" onClick={close}>
-                        &times;
-                      </button>
-                    </div>
-                    <div className="container">
-                      <div className="content">
-                        {' '}
-                        {ProjectInfo.PlanktonProject.PopupTextP0}
-                        <br /><br/>
+                      <div className="container">
+                        <div className="content">
+                          {' '}
+                          {ProjectInfo.PlanktonProject.PopupTextP0}
+                          <br /><br/>
+                        </div>
                       </div>
                     </div>
-                  </div>
                   )}
                 </Popup>
-                <div className="work-content">
-                  <div>
-                    <h2 className="w-title">{ProjectInfo.PlanktonProject.ProjectTitle}</h2>
-                  </div> 
-                  <div className="row">
-                    <div className="w-more col-sm-8">
-                      <span className="w-ctegory">
-                        {ProjectInfo.PlanktonProject.ProjectTools}
-                      </span>
-                    </div>
-                    <div className="col-sm-4">
-                      <div className="w-like">
-                        <a href={ProjectInfo.PlanktonProject.GithubLink}>
-                        <span className="ion-social-github"></span>
-                        </a>
-                      </div>
+                <div className="row work-content"> 
+                  <div className="w-more col-sm-8">
+                    <span className="w-ctegory">
+                      {ProjectInfo.PlanktonProject.ProjectTools}
+                    </span>
+                  </div>
+                  <div className="col-sm-4">
+                    <div className="w-like">
+                      <a href={ProjectInfo.PlanktonProject.GithubLink}>
+                      <span className="ion-social-github"></span>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -273,46 +251,42 @@ class Portfolio extends React.Component {
             {/* Speech Recognition Project */}
             <div className="col-md-4">
               <div className="work-box">
+                <h2 className="w-title">{ProjectInfo.SpeechProject.ProjectTitle}</h2>
                 <Popup trigger={
                   <button className="work-img">
                     <img src={audio} alt={ProjectInfo.SpeechProject.ProjectTitle} className="img-fluid" />
                   </button>} modal nested>
                   {close => (
                     <div className="modal1"> 
-                    <div className="container">
-                      <div className="title-box-2 col-sm-11"> 
-                        <div className="title-left">{ProjectInfo.SpeechProject.ProjectTitle}</div>
+                      <div className="container">
+                        <div className="title-box-2 col-sm-11"> 
+                          <div className="title-left">{ProjectInfo.SpeechProject.ProjectTitle}</div>
+                        </div>
+                        <button className="close col-sm-1" onClick={close}>
+                          &times;
+                        </button>
                       </div>
-                      <button className="close col-sm-1" onClick={close}>
-                        &times;
-                      </button>
-                    </div>
-                    <div className="container">
-                      <div className="content">
-                        {' '}
-                        {ProjectInfo.SpeechProject.PopupTextP0}
-                        <br /><br/>
+                      <div className="container">
+                        <div className="content">
+                          {' '}
+                          {ProjectInfo.SpeechProject.PopupTextP0}
+                          <br /><br/>
+                        </div>
                       </div>
                     </div>
-                  </div>
                   )}
                 </Popup>
-                <div className="work-content">
-                  <div>
-                    <h2 className="w-title">{ProjectInfo.SpeechProject.ProjectTitle}</h2>
-                  </div> 
-                  <div className="row">
-                    <div className="w-more col-sm-8">
-                      <span className="w-ctegory">
-                        {ProjectInfo.SpeechProject.ProjectTools}
-                      </span>
-                    </div>
-                    <div className="col-sm-4">
-                      <div className="w-like">
-                        <a href={ProjectInfo.SpeechProject.GithubLink}>
-                        <span className="ion-social-github"></span>
-                        </a>
-                      </div>
+                <div className="row work-content"> 
+                  <div className="w-more col-sm-8">
+                    <span className="w-ctegory">
+                      {ProjectInfo.SpeechProject.ProjectTools}
+                    </span>
+                  </div>
+                  <div className="col-sm-4">
+                    <div className="w-like">
+                      <a href={ProjectInfo.SpeechProject.GithubLink}>
+                      <span className="ion-social-github"></span>
+                      </a>
                     </div>
                   </div>
                 </div>
