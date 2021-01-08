@@ -47,7 +47,7 @@ a:hover {
 .service-box,
 .work-box,
 .card-blog {
-  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0px 10px 5px rgba(0, 0, 0, 0.1);
 }
 
 .box-shadow-a,
@@ -701,6 +701,7 @@ PORTFOLIO
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+  border-radius:10px;
 }
 
 .work-box:hover img {
@@ -709,6 +710,8 @@ PORTFOLIO
 }
 
 .work-img {
+  align-items: center;
+  width:100%;
   border: none;
   display: block;
   overflow: hidden;
@@ -721,6 +724,7 @@ PORTFOLIO
 .work-content {
   padding: 2rem 3% 1rem 4%;
   padding-left:15px;
+  justify-content: flex-start;
 }
 
 .work-content .w-more {
@@ -1014,7 +1018,6 @@ BUTTON
 
 .work-content {
   display: flex;
-  align-items: flex-start;
   flex-wrap: wrap;
 }
 
@@ -1100,6 +1103,10 @@ BUTTON
 
 .w-title {
   font-weight: bold;
+  padding-left:5%;
+  padding-right:5%;
+  padding-top:2%;
+  min-height: 52px;
 }
 @media (min-width: 768px){
   .about-me {
