@@ -49,7 +49,7 @@ class Contact extends React.Component {
                                 <input
                                   type="email"
                                   className="form-control"
-                                  name="email"
+                                  name="_replyto"
                                   id="email"
                                   placeholder="Your Email"
                                   data-rule="email"
@@ -63,7 +63,7 @@ class Contact extends React.Component {
                                 <input
                                   type="text"
                                   className="form-control"
-                                  name="subject"
+                                  name="_subject"
                                   id="subject"
                                   placeholder="Subject"
                                   data-rule="minlen:4"
