@@ -3,7 +3,7 @@
 ## Commands:
 
 * `npm start` to run locally
-* `npm deploy` to deploy to the gh pages branch and update https://rlew631.github.io/portfolio/
+* `npm run deploy` to deploy to the gh pages branch and update https://rlew631.github.io/portfolio/
 
 ## Task List:
 
