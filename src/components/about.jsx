@@ -61,6 +61,7 @@ const toolkit = (
       <div className="tools">
         <img className="tool" src="https://img.shields.io/badge/-Raspberry%20Pi-C51A4A?style=for-the-badge&logo=Raspberry%20Pi" alt="RaspberryPi"></img>
         <img className="tool" src="https://img.shields.io/badge/-arduino-00979D?style=for-the-badge&logo=arduino&logoColor=FFFFFF" alt="Arduino"></img>
+        <img className="tool" src="https://img.shields.io/badge/-espressif-E7352C?style=for-the-badge&logo=espressif&logoColor=white" alt="Espressif"></img>
       </div>
     </div>
   </div>

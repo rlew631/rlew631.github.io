@@ -702,6 +702,7 @@ PORTFOLIO
   backface-visibility: hidden;
   background-color: #fff;
   border-radius:10px;
+  height:90%;
 }
 
 .work-box:hover img {
@@ -725,6 +726,8 @@ PORTFOLIO
   padding: 2rem 3% 1rem 4%;
   padding-left:15px;
   justify-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .work-content .w-more {
@@ -740,6 +743,7 @@ PORTFOLIO
   font-size: 2.5rem;
   color: #0078ff;
   float: right;
+  padding: 10px;
 }
 
 .work-content .w-like a {
@@ -752,6 +756,11 @@ PORTFOLIO
 
 .w-title {
   font-size: 1.2rem;
+  font-weight: bold;
+  padding-left:5%;
+  padding-right:5%;
+  padding-top:2%;
+  min-height: 52px;
 }
 
 /*
@@ -1008,21 +1017,8 @@ BUTTON
 
 /* The section I put in */
 
-.work-box {
-  height:90%;
-}
-
 .w-tools{
   font-size:80%;
-}
-
-.work-content {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.work-content > .w-like {
-  padding: 10px;
 }
 
 .portfolio-row {
@@ -1068,7 +1064,7 @@ BUTTON
 .modal1 > .container > .content {
   padding-left: 10px;
 }
-
+/* 
 .modal1 > .header {
   width: 100%;
   border-bottom: 1px solid gray;
@@ -1093,7 +1089,7 @@ BUTTON
   background: #ffffff;
   border-radius: 18px;
   border: 1px solid #cfcece;
-}
+} */
 .tools {
   padding-bottom: 25px;
 }
@@ -1101,13 +1097,6 @@ BUTTON
   padding: 3px
 }
 
-.w-title {
-  font-weight: bold;
-  padding-left:5%;
-  padding-right:5%;
-  padding-top:2%;
-  min-height: 52px;
-}
 @media (min-width: 768px){
   .about-me {
     padding-right: 25px;
