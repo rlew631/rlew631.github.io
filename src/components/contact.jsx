@@ -2,7 +2,16 @@ import React from "react";
 import imageOverlay from "../img/earth.jpg";
 
 class Contact extends React.Component {
+  constructor(props) {
+    super(props);
+    this.submitForm = this.submitForm.bind(this);
+    this.state = {
+      status: ""
+    };
+  }
+
   render() {
+    const { status } = this.state;
     return (
       <section
         className="paralax-mf footer-paralax bg-image sect-mt4 route"
@@ -24,6 +33,7 @@ class Contact extends React.Component {
                           action="https://formspree.io/f/xzbkyopb"
                           method="POST"
                           className="contactForm"
+                          onSubmit={this.submitForm}
                         >
                           <div id="sendmessage">
                             Your message has been sent. Thank you!
@@ -86,12 +96,8 @@ class Contact extends React.Component {
                               </div>
                             </div>
                             <div className="col-md-12">
-                              <button
-                                type="submit"
-                                className="button button-a button-big button-rouded"
-                              >
-                                Send Message
-                              </button>
+                              {status === "SUCCESS" ? <button type="submit" className="button button-a button-big button-rouded">Your message has been sent!</button> : <button type="submitted" className="button button-a button-big button-rouded">Send Message</button>}
+                              {status === "ERROR" && <button type="failed" className="button button-a button-big button-rouded">There was an error, please contact me on LinkedIn</button>}
                             </div>
                           </div>
                         </form>
@@ -103,13 +109,8 @@ class Contact extends React.Component {
                       </div>
                       <div className="more-info">
                         <p className="lead">
-                          If you'd like to check out some of my other work or chat about a project or just say hello feel free to check out my YouTube channel, GitHub or add me on LinkedIn.
+                          If you'd like to check out some of my other work or chat about a project or just say "hello" feel free to visit my YouTube channel, GitHub or add me on LinkedIn.
                         </p>
-                        {/* <!-- <ul class="list-ico">
-                                <li><span class="ion-ios-location"></span> 329 WASHINGTON ST BOSTON, MA 02108</li>
-                                <li><span class="ion-ios-telephone"></span> (617) 557-0089</li>
-                                <li><span class="ion-email"></span> contact@example.com</li>
-                                </ul> --> */}
                       </div>
                       <div className="socials">
                         <ul>
@@ -167,6 +168,24 @@ class Contact extends React.Component {
         </footer>
       </section>
     );
+  }
+  submitForm(ev) {
+    ev.preventDefault();
+    const form = ev.target;
+    const data = new FormData(form);
+    const xhr = new XMLHttpRequest();
+    xhr.open(form.method, form.action);
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.onreadystatechange = () => {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+      if (xhr.status === 200) {
+        form.reset();
+        this.setState({ status: "SUCCESS" });
+      } else {
+        this.setState({ status: "ERROR" });
+      }
+    };
+    xhr.send(data);
   }
 }
 
