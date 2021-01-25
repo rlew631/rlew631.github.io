@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import LazyLoad from 'react-lazyload';
 
 //import css in order
 import 'normalize.css';
@@ -27,17 +28,45 @@ import BackToTop from './components/back-top.jsx';
 import Preloader from './components/preloader';
 
 
-ReactDOM.render(
-    <React.Fragment>
-        <Navbar />
-        <Intro />
-        <About />
-        <Portfolio />
-        <Contact />
-        <BackToTop />
-        <Preloader />
-    </React.Fragment>,
-document.getElementById('root'));
+// ReactDOM.render(
+//     <React.Fragment>
+//         <Navbar />
+//         <Intro />
+//         <About />
+//         <Portfolio />
+//         <Contact />
+//         <BackToTop />
+//         <Preloader />
+//     </React.Fragment>,
+// document.getElementById('root'));
+const App = () => {
+    return (
+        <div className="list">
+            <LazyLoad>
+                <Navbar />
+            </LazyLoad>
+            <LazyLoad>
+                <Intro />
+            </LazyLoad>
+            <LazyLoad>
+                <About />
+            </LazyLoad>
+            <LazyLoad>
+                <Portfolio />
+            </LazyLoad>
+            <LazyLoad>
+                <Contact />
+            </LazyLoad>
+            <LazyLoad>
+                <BackToTop />
+            </LazyLoad>
+            <LazyLoad>
+                <Preloader />
+            </LazyLoad>
+        </div>
+    )
+}
+ReactDOM.render(<App />, document.body);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
