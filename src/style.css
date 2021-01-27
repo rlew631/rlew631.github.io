@@ -401,6 +401,7 @@ NAVBAR
 
 .navbar-b.navbar-reduce {
   box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
+  height: 80px;
 }
 
 .navbar-b.navbar-trans .nav-item,
@@ -491,8 +492,8 @@ NAVBAR
   color: #0078ff;
 }
 
-.navbar-b.navbar-reduce .navbar-brand {
-  color: #0078ff;
+.navbar-b.navbar-reduce .navbar-brand img{
+  height: 50px;
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {

@@ -1,4 +1,5 @@
 import React from "react";
+import headshot from "../img/Ryan.png";
 
 const toolkit = (
   <div className="toolkit">
@@ -72,11 +73,15 @@ class About extends React.Component {
     super();
     this.state = {
       about_me: [
+        // {
+        //   id: "first-p-about",
+        //   content:
+        //     "Currently located in Berkeley, Ryan holds a Bachelor's degree in Mechatronic Engineering and has primarily held positions at companies developing robotics and automation engineering products. His passion is for discovering how new technologies can be applied to existing problems in order to find simple and elegant solutions. His positive outlook and ability to convey complex principles in a digestible manner make him a joy to work with!",
+        // },
         {
-          id: "first-p-about",
-          content:
-            "Currently located in Berkeley, Ryan holds a Bachelor's degree in Mechatronic Engineering and has primarily held positions at companies developing robotics and automation engineering products. His passion is for discovering how new technologies can be applied to existing problems in order to find simple and elegant solutions. His positive outlook and ability to convey complex principles in a digestible manner make him a joy to work with!"
-        },
+          id: "headshot",
+          content: headshot
+        }
         // {
         //   id: "second-p-about",
         //   content:
@@ -104,13 +109,17 @@ class About extends React.Component {
                     <div className="title-box-2">
                       <h5 className="title-left">About Me</h5>
                     </div>
-                    {this.state.about_me.map(content => {
-                      return (
-                        <p className="lead" key={content.id}>
-                          {content.content}
-                        </p>
-                      );
-                    })}
+                    <span>
+                      {this.state.about_me.map(content => {
+                        return (
+                            <img className="headshot col-md-6" key={content.id} src={content.content}></img>
+                        );
+                      })}
+                      <p></p>
+                      <p className="lead">
+                        Currently located in Berkeley, Ryan holds a Bachelor's degree in Mechatronic Engineering and has primarily held positions at companies developing robotics and automation engineering products. His passion is for discovering how new technologies can be applied to existing problems in order to find simple and elegant solutions. His positive outlook and ability to convey complex principles in a digestible manner make him a joy to work with!
+                      </p>
+                    </span>
                   </div>
                   </div>
                   <div className="col-md-6">
