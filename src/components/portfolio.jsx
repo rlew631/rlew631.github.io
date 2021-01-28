@@ -20,10 +20,11 @@ class Portfolio extends React.Component {
             <div className="col-sm-12">
               <div className="title-box text-center">
                 <h3 className="title-a">Portfolio</h3>
+                <div className="line-mf"></div>
+                <br></br>
                 <p className="subtitle-a">
                   Here are some of the Robotics, Data Science and Engineering projects I've developed
                 </p>
-                <div className="line-mf"></div>
               </div>
             </div>
           </div>
