@@ -723,9 +723,13 @@ PORTFOLIO
   transition: all 1s;
 }
 
+
+  /* padding: 2rem 3% 1rem 4%; */
 .work-content {
-  padding: 2rem 3% 1rem 4%;
-  padding-left:15px;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  padding-left: 4%;
+  padding-right: 4%;
   justify-content: flex-start;
   display: flex;
   flex-wrap: wrap;
@@ -744,7 +748,8 @@ PORTFOLIO
   font-size: 2.5rem;
   color: #0078ff;
   float: right;
-  padding: 10px;
+  padding-left: 15px;
+  padding-top: -7px;
 }
 
 .work-content .w-like a {
@@ -758,9 +763,10 @@ PORTFOLIO
 .w-title {
   font-size: 1.2rem;
   font-weight: bold;
-  padding-left:5%;
-  padding-right:5%;
-  padding-top:2%;
+  padding-left:6%;
+  padding-right:6%;
+  padding-top:4%;
+  padding-bottom:2%;
   min-height: 52px;
 }
 
