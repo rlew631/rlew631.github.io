@@ -7,6 +7,8 @@ import minicity from "../img/minicity.png";
 import audio from "../img/audio.png"
 import drone from "../img/drone_cad.png";
 import stocks from "../img/stocks.png";
+import fsae from "../img/fsae.jpg";
+import ecu from "../img/ecu.png";
 
 
 import ProjectInfo from "../components/project-info.json"
@@ -139,6 +141,8 @@ class Portfolio extends React.Component {
                         <div className="content">
                           {' '}
                           {ProjectInfo.NLPProject.PopupTextP0}
+                          <p /><p/>
+                          {ProjectInfo.NLPProject.PopupTextP1}
                           <br /><br/>
                         </div>
                       </div>
@@ -284,6 +288,82 @@ class Portfolio extends React.Component {
                     <span className="w-ctegory">Python Libraries: </span>
                     <br></br>
                     <span className="w-tools">{ProjectInfo.SpeechProject.ProjectTools}</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* Formula SAE Project */}
+            <div className="col-md-4">
+              <div className="work-box">
+                <h2 className="w-title">{ProjectInfo.FSAE.ProjectTitle}</h2>
+                <Popup trigger={
+                  <button className="work-img">
+                    <img src={fsae} alt={ProjectInfo.FSAE.ProjectTitle} className="img-fluid" />
+                  </button>} modal nested>
+                  {close => (
+                    <div className="modal1"> 
+                      <div className="container">
+                        <div className="title-box-2 col-sm-11"> 
+                          <div className="title-left">{ProjectInfo.FSAE.ProjectTitle}</div>
+                        </div>
+                        <button className="close col-sm-1" onClick={close}>
+                          &times;
+                        </button>
+                      </div>
+                      <div className="container">
+                        <div className="content">
+                          {' '}
+                          {ProjectInfo.FSAE.PopupTextP0}
+                          <br /><br/>
+                        </div>
+                      </div>
+                    </div>
+                  )}
+                </Popup>
+                <div className="row work-content"> 
+                  <div className="tools col-sm-10">
+                    <span className="w-ctegory">Tools Used: </span>
+                    <br></br>
+                    <span className="w-tools">{ProjectInfo.FSAE.ProjectTools}</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* Subaru Project */}
+            <div className="col-md-4">
+              <div className="work-box">
+                <h2 className="w-title">{ProjectInfo.Subaru.ProjectTitle}</h2>
+                <Popup trigger={
+                  <button className="work-img">
+                    <img src={ecu} alt={ProjectInfo.Subaru.ProjectTitle} className="img-fluid" />
+                  </button>} modal nested>
+                  {close => (
+                    <div className="modal1"> 
+                      <div className="container">
+                        <div className="title-box-2 col-sm-11"> 
+                          <div className="title-left">{ProjectInfo.Subaru.ProjectTitle}</div>
+                        </div>
+                        <button className="close col-sm-1" onClick={close}>
+                          &times;
+                        </button>
+                      </div>
+                      <div className="container">
+                        <div className="content">
+                          {' '}
+                          {ProjectInfo.Subaru.PopupTextP0}
+                          <p /><p/>
+                          {ProjectInfo.Subaru.PopupTextP0}
+                          <br /><br/>
+                        </div>
+                      </div>
+                    </div>
+                  )}
+                </Popup>
+                <div className="row work-content"> 
+                  <div className="tools col-sm-10">
+                    <span className="w-ctegory">Tools Used: </span>
+                    <br></br>
+                    <span className="w-tools">{ProjectInfo.Subaru.ProjectTools}</span>
                   </div>
                 </div>
               </div>

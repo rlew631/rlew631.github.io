@@ -37,4 +37,15 @@
   "GithubLink":"https://github.com/rlew631/NLP_stock_analysis",
   "PopupTextP0":"This project is a continuation of the Lazy Prices paper published by Lauren Cohen of HBS which speculated that a magnitude of changes in the content of a company's quarterly filing would indicate that their stock is likely to drop.",
   "PopupTextP1":"My implementation compares the cosine similarity and jaccard score of a given company's filing to the one they filed the previous year. Additionally I wrote a custom sentiment index which uses Loughran McDonald's financial NLP dictionary to determine the overall sentiment of a given year's filing."
+},
+"FSAE":{
+  "ProjectTitle":"Formula SAE Race Car",
+  "ProjectTools":"FEA (Finite Element Analysis), DFM (Design for Manufacture), Proposal Writing, Leadership/Communication",
+  "PopupTextP0":"I initially proposed this project to the head of the engineering department at my college, worked together to secure grant funding and coordinated a group of students to develop and build a race car for the annual Formula SAE competition in Michigan."
+},
+"Subaru":{
+  "ProjectTitle":"Modified Subaru Street Car",
+  "ProjectTools":"CANBUS Troubleshooting, Engine and ECU Parameter Logging/Modification, CNC Machining/TIG Welding, Digital Signal Analysis",
+  "PopupTextP0":"After purchaing a 2008 Subaru WRX in 2013 using bitcoin mined in a college dorm room I have incrementally upgraded all of the major components in the drivetrain, fuel system, suspension and braking systems with parts which were sourced from OEM and aftermarket vendors as well as custom fabricated pieces.",
+  "PopupTextP1":"Most recently I finished building and installign a custom spec engine which has required tight-tolerance machining (in the order of ten-thousandths of an inch), electromechanical troubleshooting and custom mappings for engine management which I have tuned."
 }}
