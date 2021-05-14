@@ -23,7 +23,7 @@ class Portfolio extends React.Component {
                 <div className="line-mf"></div>
                 <br></br>
                 <p className="subtitle-a">
-                  Here are some of the Robotics, Data Science and Engineering projects I've developed
+                  Here are some of the Robotics, Data Science and Engineering projects Ryan has personally developed or overseen
                 </p>
               </div>
             </div>
