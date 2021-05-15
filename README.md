@@ -21,3 +21,4 @@
 - maybe add a picture or keep the picture in the popup. Something where it's just the box that zooms/rearranged instead of a seperate window would be slick
 - [ ] put in a grabcad link like the github one for the drone and FSAE cars
 - [ ] make the formatting for the "python libraries", "other tools", "tools used" sections more coherent and possibly laid out in a way where soft skills aren't grouped in with "tools"
+- [ ] Add youtube links!!!

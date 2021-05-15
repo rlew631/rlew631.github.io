@@ -64,6 +64,9 @@ class Portfolio extends React.Component {
                     <a href={ProjectInfo.CarProject.GithubLink}>
                       <span className="ion-social-github"></span>
                     </a>
+                    <a href={ProjectInfo.CarProject.YoutubeLink}>
+                      <span className="ion-social-youtube"></span>
+                    </a>
                   </div>
                   <div className="tools col-sm-10">
                     <span className="w-ctegory">Python Libraries: </span>
@@ -320,7 +323,12 @@ class Portfolio extends React.Component {
                     </div>
                   )}
                 </Popup>
-                <div className="row work-content"> 
+                <div className="row work-content">
+                  <div className="w-like col">
+                    <a href={ProjectInfo.FSAE.YoutubeLink}>
+                      <span className="ion-social-youtube"></span>
+                    </a>
+                  </div>
                   <div className="tools col-sm-10">
                     <span className="w-ctegory">Tools Used: </span>
                     <br></br>

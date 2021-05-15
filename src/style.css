@@ -697,6 +697,10 @@ ABOUT
 PORTFOLIO
 */
 
+.ion-social-youtube {
+  margin-left:10px;
+}
+
 .work-box {
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
