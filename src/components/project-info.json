@@ -1,40 +1,41 @@
 {
 "DroneProject":{
   "ProjectTitle":"Object Tracking Drone",
-  "ProjectTools":"OpenCV, MAVLink",
+  "PythonTools":"OpenCV, MAVLink",
   "OtherTools":"CNC (G-Code), Raspbian, Solidworks, FEA (Finite Element Analysis)",
   "GithubLink":"https://github.com/rlew631/ObjectTrackingDrone",
   "PopupTextP0":"This project involved building a custom drone and using OpenCV on a Raspberry Pi to perform object tracking."
 },
 "CarProject":{
   "ProjectTitle":"Training Autonomous Vehicles using RL",
-  "ProjectTools":"FLOW, RLlib, OpenAI Gym, SUMO, OpenStreetMaps, Tensorflow",
+  "PythonTools":"FLOW, RLlib, OpenAI Gym, SUMO, OpenStreetMaps, Tensorflow",
   "YoutubeLink":"https://youtu.be/qXuBEs9G7Iw",
   "GithubLink":"https://github.com/rlew631/AutonomousVehicleSimulation",
   "PopupTextP0":"The purpose of this project was to create a model which develops autonomous vehicle driving policies using a deep reinforcement learning policy. See my discussion on youtube or the slide deck in the repo which goes over the general framework and the tools used."
 },
 "SpeechProject":{
   "ProjectTitle":"Spoken Word Classification",
-  "ProjectTools":"Keras, Numpy, Matplotlib, SciPy, SKImage",
+  "PythonTools":"Keras, Numpy, Matplotlib, SciPy, SKImage",
   "GithubLink":"https://github.com/rlew631/SpeechRecognition",
   "PopupTextP0":"This project involved taking a dataset which consisted of 30 different spoken words, batching them and converting them to spectrograms in order to perform classification with a custom CNN."
 },
 "DrugProject":{
   "ProjectTitle":"Predicting Drug Effects from their Chemical Markers",
-  "ProjectTools":"SKLearn, IMBLearn, MatPlotLib, Plotly, Seaborn",
+  "PythonTools":"SKLearn, IMBLearn, MatPlotLib, Plotly, Seaborn",
   "OtherTools":"Heroku, HTML, JavaScript, CSS",
   "GithubLink":"https://github.com/rlew631/DrugMethodsOfAction",
+  "WebsiteLink":"https://moa-prediction-app.herokuapp.com/",
   "PopupTextP0":"The purpose of this project was to find a relationship between drug attributes and their corresponding methods of action. This could improve the efficiency of the drug development process by selectively eliminating drug candidates which are likely to have additional unwanted MOAs (mechanisms of action) before moving on to the screening and preclinical trial phases of development."
 },
 "PlanktonProject":{
   "ProjectTitle":"Predicting Zooplankton Presence from Water Quality Data",
-  "ProjectTools":"SKLearn, Numpy, Pandas, MatPlotLib, Seaborn",
+  "PythonTools":"SKLearn, Numpy, Pandas, MatPlotLib, Seaborn",
   "GithubLink":"https://github.com/rlew631/SanJoaquinZooplanktonPredictor",
   "PopupTextP0":"The purpose of this project was to predict the presence of aquatic micro-organisms in the San Joaquin Delta based on water quality measurements from USGS. These organisms are a key food source for the endangered Delta Smelt which has experienced a rapid population decline in the last few years."
 },
 "NLPProject":{
   "ProjectTitle":"Comparing Stock Performance to Annual Filings using NLP",
-  "ProjectTools":"NLTK, BeautifulSoup, Matplotlib, Pandas",
+  "PythonTools":"NLTK, BeautifulSoup, Matplotlib, Pandas",
   "GithubLink":"https://github.com/rlew631/NLP_stock_analysis",
   "PopupTextP0":"This project is a continuation of the Lazy Prices paper published by Lauren Cohen of HBS which speculated that a magnitude of changes in the content of a company's quarterly filing would indicate that their stock is likely to drop.",
   "PopupTextP1":"My implementation compares the cosine similarity and jaccard score of a given company's filing to the one they filed the previous year. Additionally I wrote a custom sentiment index which uses Loughran McDonald's financial NLP dictionary to determine the overall sentiment of a given year's filing."

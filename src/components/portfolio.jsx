@@ -61,17 +61,17 @@ class Portfolio extends React.Component {
                 </Popup>
                 <div className="row work-content"> 
                   <div className="w-like col">
-                    <a href={ProjectInfo.CarProject.GithubLink}>
-                      <span className="ion-social-github"></span>
+                    <a href={ProjectInfo.CarProject.GithubLink} className="project-link">
+                      <span className="ion-social-github project-link"></span>
                     </a>
-                    <a href={ProjectInfo.CarProject.YoutubeLink}>
+                    <a href={ProjectInfo.CarProject.YoutubeLink} className="project-link">
                       <span className="ion-social-youtube"></span>
                     </a>
                   </div>
                   <div className="tools col-sm-10">
                     <span className="w-ctegory">Python Libraries: </span>
                     <br></br>
-                    <span className="w-tools">{ProjectInfo.CarProject.ProjectTools}</span>
+                    <span className="w-tools">{ProjectInfo.CarProject.PythonTools}</span>
                   </div>
                 </div>
               </div>
@@ -106,14 +106,17 @@ class Portfolio extends React.Component {
                 </Popup>
                 <div className="row work-content"> 
                   <div className="w-like col">
-                    <a href={ProjectInfo.DrugProject.GithubLink}>
+                    <a href={ProjectInfo.DrugProject.GithubLink} className="project-link">
                       <span className="ion-social-github"></span>
+                    </a>
+                    <a href={ProjectInfo.DrugProject.WebsiteLink} className="project-link">
+                      <span className="ion-social-chrome"></span>
                     </a>
                   </div>
                   <div className="tools col-sm-10">
                     <span className="w-ctegory">Python Libraries: </span>
                     <br></br>
-                    <span className="w-tools">{ProjectInfo.DrugProject.ProjectTools}</span>
+                    <span className="w-tools">{ProjectInfo.DrugProject.PythonTools}</span>
                     <p></p>
                     <span className="w-ctegory">Other Tools: </span>
                     <br></br>
@@ -154,14 +157,14 @@ class Portfolio extends React.Component {
                 </Popup>
                 <div className="row work-content"> 
                   <div className="w-like col">
-                    <a href={ProjectInfo.NLPProject.GithubLink}>
+                    <a href={ProjectInfo.NLPProject.GithubLink} className="project-link">
                       <span className="ion-social-github"></span>
                     </a>
                   </div>
                   <div className="tools col-sm-10">
                     <span className="w-ctegory">Python Libraries: </span>
                     <br></br>
-                    <span className="w-tools">{ProjectInfo.NLPProject.ProjectTools}</span>
+                    <span className="w-tools">{ProjectInfo.NLPProject.PythonTools}</span>
                   </div>
                 </div>
               </div>
@@ -196,14 +199,14 @@ class Portfolio extends React.Component {
                 </Popup>
                 <div className="row work-content"> 
                   <div className="w-like col">
-                    <a href={ProjectInfo.DroneProject.GithubLink}>
+                    <a href={ProjectInfo.DroneProject.GithubLink} className="project-link">
                       <span className="ion-social-github"></span>
                     </a>
                   </div>
                   <div className="tools col-sm-10">
                     <span className="w-ctegory">Python Libraries: </span>
                     <br></br>
-                    <span className="w-tools">{ProjectInfo.DroneProject.ProjectTools}</span>
+                    <span className="w-tools">{ProjectInfo.DroneProject.PythonTools}</span>
                     <p></p>
                     <span className="w-ctegory">Other Tools: </span>
                     <span className="w-tools">{ProjectInfo.DroneProject.OtherTools}</span>
@@ -241,14 +244,14 @@ class Portfolio extends React.Component {
                 </Popup>
                 <div className="row work-content"> 
                   <div className="w-like col">
-                    <a href={ProjectInfo.PlanktonProject.GithubLink}>
+                    <a href={ProjectInfo.PlanktonProject.GithubLink} className="project-link">
                       <span className="ion-social-github"></span>
                     </a>
                   </div>
                   <div className="tools col-sm-10">
                     <span className="w-ctegory">Python Libraries: </span>
                     <br></br>
-                    <span className="w-tools">{ProjectInfo.PlanktonProject.ProjectTools}</span>
+                    <span className="w-tools">{ProjectInfo.PlanktonProject.PythonTools}</span>
                   </div>
                 </div>
               </div>
@@ -283,14 +286,14 @@ class Portfolio extends React.Component {
                 </Popup>
                 <div className="row work-content"> 
                   <div className="w-like col">
-                    <a href={ProjectInfo.SpeechProject.GithubLink}>
+                    <a href={ProjectInfo.SpeechProject.GithubLink} className="project-link">
                       <span className="ion-social-github"></span>
                     </a>
                   </div>
                   <div className="tools col-sm-10">
                     <span className="w-ctegory">Python Libraries: </span>
                     <br></br>
-                    <span className="w-tools">{ProjectInfo.SpeechProject.ProjectTools}</span>
+                    <span className="w-tools">{ProjectInfo.SpeechProject.PythonTools}</span>
                   </div>
                 </div>
               </div>
@@ -325,7 +328,7 @@ class Portfolio extends React.Component {
                 </Popup>
                 <div className="row work-content">
                   <div className="w-like col">
-                    <a href={ProjectInfo.FSAE.YoutubeLink}>
+                    <a href={ProjectInfo.FSAE.YoutubeLink} className="project-link">
                       <span className="ion-social-youtube"></span>
                     </a>
                   </div>
