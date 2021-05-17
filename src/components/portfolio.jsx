@@ -321,6 +321,8 @@ class Portfolio extends React.Component {
                           {' '}
                           {ProjectInfo.FSAE.PopupTextP0}
                           <br /><br/>
+                          {ProjectInfo.FSAE.PopupTextP1}
+                          <br /><br/>
                         </div>
                       </div>
                     </div>
@@ -363,7 +365,7 @@ class Portfolio extends React.Component {
                           {' '}
                           {ProjectInfo.Subaru.PopupTextP0}
                           <p /><p/>
-                          {ProjectInfo.Subaru.PopupTextP0}
+                          {ProjectInfo.Subaru.PopupTextP1}
                           <br /><br/>
                         </div>
                       </div>

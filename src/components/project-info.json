@@ -43,12 +43,13 @@
 "FSAE":{
   "ProjectTitle":"Formula SAE Race Car",
   "ProjectTools":"FEA (Finite Element Analysis), DFM (Design for Manufacture), Proposal Writing, Leadership/Communication",
-  "PopupTextP0":"I initially proposed this project to the head of the engineering department at my college, worked together to secure grant funding and coordinated a group of students to develop and build a race car for the annual Formula SAE competition in Michigan.",
+  "PopupTextP0":"I initially proposed this project to the head of the engineering department at my college. We worked together to secure grant funding and coordinated a group of students to develop and build a race car for the annual Formula SAE competition in Michigan.",
+  "PopupTextP1":"This project required coordinating with various stakeholders in administration at the college as well as developing design and fabrication workshops for the students to successfully participate.",
   "YoutubeLink":"https://www.youtube.com/watch?v=rsLcJnHyiQ4"
 },
 "Subaru":{
   "ProjectTitle":"Modified Subaru Street Car",
   "ProjectTools":"CANBUS Troubleshooting, Engine and ECU Parameter Logging/Modification, CNC Machining/TIG Welding, Digital Signal Analysis",
   "PopupTextP0":"After purchaing a 2008 Subaru WRX in 2013 using bitcoin mined in a college dorm room I have incrementally upgraded all of the major components in the drivetrain, fuel system, suspension and braking systems with parts which were sourced from OEM and aftermarket vendors as well as custom fabricated pieces.",
-  "PopupTextP1":"Most recently I finished building and installign a custom spec engine which has required tight-tolerance machining (in the order of ten-thousandths of an inch), electromechanical troubleshooting and custom mappings for engine management which I have tuned."
+  "PopupTextP1":"Most recently I finished building and installing a custom spec engine which has required tight-tolerance machining (in the order of ten-thousandths of an inch), electromechanical troubleshooting, custom wiring/electronics installation and realtime tuning of the fuel, ignition, valve timing and sensor calibration for the engine."
 }}

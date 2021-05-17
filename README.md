@@ -20,5 +20,9 @@
 - [ ] see if the entire box can be made to zoom when hovering over, not just the picture
 - maybe add a picture or keep the picture in the popup. Something where it's just the box that zooms/rearranged instead of a seperate window would be slick
 - [ ] put in a grabcad link like the github one for the drone and FSAE cars. Make the chrome icon for now if not available but make a grabcad icon for sure
-- [ ] make the formatting for the "python libraries", "other tools", "tools used" sections more coherent and possibly laid out in a way where soft skills aren't grouped in with "tools"
-- [ ] add links for other youtube videos if any are left
+- [ ] add soft skills where relevant. Maybe budget planning, conflict mediation, 
+- [ ] add youtube link for one of the drone videos
+- [ ] fixed the icon on the page tab
+
+maybe create a website for the zooplankton project which operates in real time?
+put the logic diagrams from the github projects on the pages for project descriptions. Maybe also just completely copy the github descriptions to flesh them out a bit
