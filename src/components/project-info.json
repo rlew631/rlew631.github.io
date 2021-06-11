@@ -2,7 +2,7 @@
 "DroneProject":{
   "ProjectTitle":"Object Tracking Drone",
   "PythonTools":"OpenCV, MAVLink",
-  "OtherTools":"CNC (G-Code), Raspbian, Solidworks, FEA (Finite Element Analysis)",
+  "OtherTools":"CNC (G-Code), Solidworks, FEA (Finite Element Analysis), PID, Linux",
   "GithubLink":"https://github.com/rlew631/ObjectTrackingDrone",
   "PopupTextP0":"This project involved building a custom drone and using OpenCV on a Raspberry Pi to perform object tracking."
 },
