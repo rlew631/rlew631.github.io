@@ -330,6 +330,9 @@ class Portfolio extends React.Component {
                 </Popup>
                 <div className="row work-content">
                   <div className="w-like col">
+                    <a href={ProjectInfo.FSAE.PaperLink} className="project-link">
+                      <span className="ion-document-text"></span>
+                    </a>
                     <a href={ProjectInfo.FSAE.YoutubeLink} className="project-link">
                       <span className="ion-social-youtube"></span>
                     </a>
