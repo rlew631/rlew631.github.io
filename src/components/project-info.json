@@ -51,6 +51,6 @@
 "Subaru":{
   "ProjectTitle":"Modified Subaru Street Car",
   "ProjectTools":"CANBUS Troubleshooting, Engine and ECU Parameter Logging/Modification, CNC Machining/TIG Welding, Digital Signal Analysis",
-  "PopupTextP0":"After purchaing a 2008 Subaru WRX in 2013 using bitcoin mined in a college dorm room I have incrementally upgraded all of the major components in the drivetrain, fuel system, suspension and braking systems with parts which were sourced from OEM and aftermarket vendors as well as custom fabricated pieces.",
-  "PopupTextP1":"Most recently I finished building and installing a custom spec engine which has required tight-tolerance CNC machining, electromechanical troubleshooting, custom wiring/electronics installation and realtime tuning of the fuel, ignition, valve timing maps and sensor calibrations for the engine."
+  "PopupTextP0":"After purchasing a 2008 Subaru WRX in 2013 using bitcoin mined in a college dorm room I have incrementally upgraded all of the major components in the drivetrain, fuel system, suspension and braking systems with parts which were sourced from OEM and aftermarket vendors as well as custom fabricated pieces.",
+  "PopupTextP1":"Most recently I finished building and installing a custom spec engine using the OEM EJ255 case halves, EJ207 cylinder heads sourced from Japan and aftermarket internals. This required tight-tolerance CNC machining, electromechanical troubleshooting, custom wiring/electronics installation and realtime tuning of the fuel, ignition, valve timing maps and sensor calibrations for the engine."
 }}
