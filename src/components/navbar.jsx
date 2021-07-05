@@ -85,7 +85,7 @@ class Navbar extends React.Component {
         className="navbar navbar-b navbar-trans navbar-expand-md fixed-top"
         id="mainNav"
       >
-        <div className="container">
+        <div className="container navbar-contents">
           <a className="navbar-brand js-scroll" href="#page-top">
             <img
               src={this.state.logo}

@@ -10,6 +10,7 @@
 - [ ] figure out how to speed up load time (especially first load)
     - look into [deadfile](https://m-izadmehr.github.io/deadfile/#/)
     - also look into `service worker` at the end of `index.js` 
+- [ ] Fix logo transition when using on mobile and clicking the menu button (can check with small window on mac)
 - [ ] trim down unnecessary css
 - [ ] make icons on simpleicons for ros and gazebo to put in "toolkit"
 - [ ] add projects:
