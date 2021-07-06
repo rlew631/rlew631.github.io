@@ -776,6 +776,10 @@ PORTFOLIO
   min-height: 52px;
 }
 
+button.close:focus {
+  outline: none;
+}
+
 /*
 TESTIMONIALS
 */
